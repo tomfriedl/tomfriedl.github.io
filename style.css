@@ -1,0 +1,650 @@
+>
+    @font-face {
+        font-family: 'Raleway';
+        src: url('fonts/Raleway-Black.woff2') format('woff2'),
+            url('fonts/Raleway-Black.woff') format('woff');
+        font-weight: 900;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Raleway';
+        src: url('fonts/Raleway-BlackItalic.woff2') format('woff2'),
+            url('fonts/Raleway-BlackItalic.woff') format('woff');
+        font-weight: 900;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Raleway';
+        src: url('fonts/Raleway-Bold.woff2') format('woff2'),
+            url('fonts/Raleway-Bold.woff') format('woff');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Raleway';
+        src: url('fonts/Raleway-ExtraBold.woff2') format('woff2'),
+            url('fonts/Raleway-ExtraBold.woff') format('woff');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Raleway';
+        src: url('fonts/Raleway-BoldItalic.woff2') format('woff2'),
+            url('fonts/Raleway-BoldItalic.woff') format('woff');
+        font-weight: bold;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Raleway';
+        src: url('fonts/Raleway-ExtraBoldItalic.woff2') format('woff2'),
+            url('fonts/Raleway-ExtraBoldItalic.woff') format('woff');
+        font-weight: bold;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Raleway';
+        src: url('fonts/Raleway-ExtraLightItalic.woff2') format('woff2'),
+            url('fonts/Raleway-ExtraLightItalic.woff') format('woff');
+        font-weight: 200;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Raleway';
+        src: url('fonts/Raleway-ExtraLight.woff2') format('woff2'),
+            url('fonts/Raleway-ExtraLight.woff') format('woff');
+        font-weight: 200;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Raleway';
+        src: url('fonts/Raleway-Italic.woff2') format('woff2'),
+            url('fonts/Raleway-Italic.woff') format('woff');
+        font-weight: normal;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Raleway';
+        src: url('fonts/Raleway-Light.woff2') format('woff2'),
+            url('fonts/Raleway-Light.woff') format('woff');
+        font-weight: 300;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Raleway';
+        src: url('fonts/Raleway-Medium.woff2') format('woff2'),
+            url('fonts/Raleway-Medium.woff') format('woff');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Raleway';
+        src: url('fonts/Raleway-MediumItalic.woff2') format('woff2'),
+            url('fonts/Raleway-MediumItalic.woff') format('woff');
+        font-weight: 500;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Raleway';
+        src: url('fonts/Raleway-LightItalic.woff2') format('woff2'),
+            url('fonts/Raleway-LightItalic.woff') format('woff');
+        font-weight: 300;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Raleway';
+        src: url('fonts/Raleway-Regular.woff2') format('woff2'),
+            url('fonts/Raleway-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Raleway';
+        src: url('fonts/Raleway-SemiBoldItalic.woff2') format('woff2'),
+            url('fonts/Raleway-SemiBoldItalic.woff') format('woff');
+        font-weight: 600;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Raleway';
+        src: url('fonts/Raleway-Thin.woff2') format('woff2'),
+            url('fonts/Raleway-Thin.woff') format('woff');
+        font-weight: 100;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Raleway';
+        src: url('fonts/Raleway-SemiBold.woff2') format('woff2'),
+            url('fonts/Raleway-SemiBold.woff') format('woff');
+        font-weight: 600;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Raleway';
+        src: url('fonts/Raleway-ThinItalic.woff2') format('woff2'),
+            url('fonts/Raleway-ThinItalic.woff') format('woff');
+        font-weight: 100;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Alegreya';
+        src: url('fonts/Alegreya-Black.woff2') format('woff2'),
+            url('fonts/Alegreya-Black.woff') format('woff');
+        font-weight: 900;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Alegreya';
+        src: url('fonts/Alegreya-Bold.woff2') format('woff2'),
+            url('fonts/Alegreya-Bold.woff') format('woff');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Alegreya';
+        src: url('fonts/Alegreya-BlackItalic.woff2') format('woff2'),
+            url('fonts/Alegreya-BlackItalic.woff') format('woff');
+        font-weight: 900;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Alegreya';
+        src: url('fonts/Alegreya-ExtraBold.woff2') format('woff2'),
+            url('fonts/Alegreya-ExtraBold.woff') format('woff');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Alegreya';
+        src: url('fonts/Alegreya-BoldItalic.woff2') format('woff2'),
+            url('fonts/Alegreya-BoldItalic.woff') format('woff');
+        font-weight: bold;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Alegreya';
+        src: url('fonts/Alegreya-ExtraBoldItalic.woff2') format('woff2'),
+            url('fonts/Alegreya-ExtraBoldItalic.woff') format('woff');
+        font-weight: bold;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Alegreya';
+        src: url('fonts/Alegreya-Italic.woff2') format('woff2'),
+            url('fonts/Alegreya-Italic.woff') format('woff');
+        font-weight: normal;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Alegreya';
+        src: url('fonts/Alegreya-MediumItalic.woff2') format('woff2'),
+            url('fonts/Alegreya-MediumItalic.woff') format('woff');
+        font-weight: 500;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Alegreya';
+        src: url('fonts/Alegreya-Medium.woff2') format('woff2'),
+            url('fonts/Alegreya-Medium.woff') format('woff');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Alegreya';
+        src: url('fonts/Alegreya-Regular.woff2') format('woff2'),
+            url('fonts/Alegreya-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Alegreya';
+        src: url('fonts/Alegreya-SemiBoldItalic.woff2') format('woff2'),
+            url('fonts/Alegreya-SemiBoldItalic.woff') format('woff');
+        font-weight: 600;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Alegreya';
+        src: url('fonts/Alegreya-SemiBold.woff2') format('woff2'),
+            url('fonts/Alegreya-SemiBold.woff') format('woff');
+        font-weight: 600;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'W95FA';
+        src: url('fonts/W95FARegular.woff2') format('woff2'),
+            url('fonts/W95FARegular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    * {
+      font-feature-settings: "kern", "liga", "clig";
+    }
+
+body{
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+  overflow: visible;
+}
+
+.MenuContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5% auto;
+  width: 100%;
+  overflow: hidden;
+  font-family: "raleway", "ITC Avant Garde Gothic Std", "Century Gothic", "Futura", "AppleGothic", sans-serif;
+  font-feature-settings: "ss02"
+  font-weight: 100;
+}
+
+.MenuContainer ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.MenuContainer li {
+  float: left;
+  padding: 0 3%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  text-shadow: 2px 2px pink;
+}
+
+.IndexTitle {
+  margin: 0 auto;
+  width: 75%;
+}
+
+.IndexTitle h1 {
+  margin: 0 auto;
+  width: 100%;
+  font-family: "raleway", "ITC Avant Garde Gothic Std", "Century Gothic", "Futura", "AppleGothic", sans-serif;
+  font-weight: 800;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+.IndexTitle h3 {
+  margin: 0 auto;
+  width: 100%;
+  font-size: 150%;
+  font-family: "Alegreya", "Baskerville", serif;
+  font-style: italic;
+  font-weight: 500;
+  text-align: center;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 5%;
+  padding: 1%;
+  width: 50%;
+  border: 0.5px dashed black;
+}
+
+.profile img {
+  width: 100%;
+}
+
+.SectionHeading h2 {
+  display: flex;
+  justify-content: flex-end;
+  margin: 3% auto;
+  width: 75%;
+  font-family: "raleway", "ITC Avant Garde Gothic Std", "Century Gothic", "Futura", "AppleGothic", sans-serif;
+  font-feature-settings: "ss02";
+  font-weight: 700;
+  text-align: right;
+}
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  margin: 1% auto 10% auto;
+  width: 100%;
+}
+
+.resume th {
+  font-family: "raleway", "ITC Avant Garde Gothic Std", "Century Gothic", "Futura", "AppleGothic", sans-serif;
+  font-feature-settings: "ss02";
+  font-weight: 500;
+  font-size: 125%;
+  text-align: left;
+  width: 100%;
+  vertical-align: baseline;
+  padding: 2%;
+  border: 0.25px solid black;
+  box-shadow: 4px 4px #BFE0D0;
+}
+
+.resume table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 20px;
+}
+
+.resume td {
+  font-family: "raleway", "ITC Avant Garde Gothic Std", "Century Gothic", "Futura", "AppleGothic", sans-serif;
+  font-weight: 100;
+  font-size: 110%;
+  vertical-align: baseline;
+  padding: 5%;
+  border: 0.25px solid black;
+  box-shadow: 4px 4px #BFE0D0;
+}
+
+.ContactInfo {
+  justify-content: center;
+  margin: 1% auto 5% auto;
+  width: 100%;
+  font-family: "raleway", "ITC Avant Garde Gothic Std", "Century Gothic", "Futura", "AppleGothic", sans-serif;
+  overflow: visible;
+  border-collapse: separate;
+  border-spacing: 20px;
+}
+
+.ContactInfo td {
+  padding: 3%;
+  text-align: left;
+  border: 0.25px solid black;
+  box-shadow: 4px 4px #BFE0D0;
+}
+
+#twitter {
+  vertical-align: top;
+  padding: 3%;
+}
+
+#instagram {
+  vertical-align: top;
+}
+
+#blank {
+  height: 300px;
+}
+
+.ContactInfo h3 {
+  font-feature-settings: "ss02";
+  margin: 0 auto 3% auto;
+  padding: 0;
+  width: 100%;
+  font-weight: 600;
+}
+
+#socialmediarow h3 {
+  padding-bottom: 5%;
+}
+
+.ContactInfo p {
+  margin: 0 auto;
+  width: 100%;
+  font-weight: 100;
+}
+
+
+/*portfolio lightbox*/
+/*adapted from https://www.w3schools.com/howto/howto_js_lightbox.asp*/
+
+        .row {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: flex-end;
+          margin: 0 auto 15% auto;
+          width: 100%;
+        }
+
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+
+        .row img {
+          align-self: center;
+          width: 25%;
+          padding: 1%;
+          margin: 2%;
+          border: 0.25px solid black;
+          box-shadow: 4px 4px #BFE0D0;
+        }
+
+        /* The Modal (background) */
+        .modal {
+          display: none;
+          position: fixed;
+          z-index: 1;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          overflow: auto;
+          background-color: hsla(0, 0%, 0%, .9);
+        }
+
+        /* Modal Content */
+        .modal-content {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-content: center;
+          margin: auto;
+          width: 100%;
+          height: 100%;
+        }
+
+        .tall {
+          margin: auto;
+          width: 32%;
+        }
+
+        .wide {
+          margin: auto;
+          width: 75%;
+        }
+
+        /* The Close Button */
+        .close {
+          color: white;
+          position: absolute;
+          top: 10px;
+          right: 25px;
+          font-family: "raleway", "ITC Avant Garde Gothic Std", "Century Gothic", "Futura", "AppleGothic", sans-serif;
+          font-size: 35px;
+          font-weight: 100;
+        }
+
+        .close:hover,
+        .close:focus {
+          color: #999;
+          text-decoration: none;
+          cursor: pointer;
+        }
+
+        /* Hide the slides by default */
+        .mySlides {
+          display: none;
+        }
+
+        .hover-shadow:hover {
+          box-shadow: 3px 3px pink, 6px 6px #BFE0D0;
+        }
+
+/*page 5*/
+        .pagefivebackground {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          position: fixed;
+          top: 0;
+          left: 0;
+          z-index: 0;
+          width: 100%;
+          height: 100%;
+          background-color: #008080;
+        }
+
+        .window {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          margin: auto;
+          z-index: 1;
+          width: 45%;
+          height: 35%;
+          background-color: #c1c1c1;
+          border-width: 1px;
+          border-style: solid;
+          border-color: #FFFFFF #808080 #808080 #FFFFFF;
+          box-shadow: 1px 1px 1px black;
+          filter: blur(0.25px);
+        }
+
+        .border {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-content: center;
+          background-color: #000081;
+          width: 100%;
+          height: 13%;
+        }
+
+        .border p {
+          font-family: W95FA;
+          font-size: 150%;
+          text-align: left;
+          filter: blur(0.25px);
+          color: #ffffff;
+          padding: 5%;
+          align-self: center;
+        }
+
+        .windowtext {
+          margin: auto;
+          align-self: center;
+        }
+
+        .windowtext img{
+          float: left;
+          padding: 10%;
+          margin: 0;
+        }
+
+        .windowtext p {
+          font-family: "w95FA", "Microsoft Sans Serif", "Helvetica", "Helvetica Neue", sans-serif;
+          font-size: 150%;
+          text-align: left;
+        }
+
+        .button {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-content: center;
+          align-self: center;
+          background-color: #c1c1c1;
+          outline: 1px solid #000000;
+          border-width: 1px;
+          border-style: solid;
+          border-color: #FFFFFF #808080 #808080 #FFFFFF;
+          margin: auto 15%;
+        }
+
+        .button p {
+          font-family: w95fa;
+          font-size: 100%;
+          text-align: center;
+          margin: 5%;
+        }
+
+        .button a {
+          text-shadow: none;
+        }
+
+        .button:hover {
+          border-width: 1px;
+          border-style: solid;
+          border-color: #808080 #FFFFFF #FFFFFF #808080;
+        }
