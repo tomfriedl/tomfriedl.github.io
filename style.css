@@ -162,120 +162,84 @@
     }
 
     @font-face {
-        font-family: 'Alegreya';
-        src: url('fonts/Alegreya-Black.woff2') format('woff2'),
-            url('fonts/Alegreya-Black.woff') format('woff');
-        font-weight: 900;
-        font-style: normal;
-        font-display: swap;
-    }
-
-    @font-face {
-        font-family: 'Alegreya';
-        src: url('fonts/Alegreya-Bold.woff2') format('woff2'),
-            url('fonts/Alegreya-Bold.woff') format('woff');
-        font-weight: bold;
-        font-style: normal;
-        font-display: swap;
-    }
-
-    @font-face {
-        font-family: 'Alegreya';
-        src: url('fonts/Alegreya-BlackItalic.woff2') format('woff2'),
-            url('fonts/Alegreya-BlackItalic.woff') format('woff');
-        font-weight: 900;
-        font-style: italic;
-        font-display: swap;
-    }
-
-    @font-face {
-        font-family: 'Alegreya';
-        src: url('fonts/Alegreya-ExtraBold.woff2') format('woff2'),
-            url('fonts/Alegreya-ExtraBold.woff') format('woff');
-        font-weight: bold;
-        font-style: normal;
-        font-display: swap;
-    }
-
-    @font-face {
-        font-family: 'Alegreya';
-        src: url('fonts/Alegreya-BoldItalic.woff2') format('woff2'),
-            url('fonts/Alegreya-BoldItalic.woff') format('woff');
-        font-weight: bold;
-        font-style: italic;
-        font-display: swap;
-    }
-
-    @font-face {
-        font-family: 'Alegreya';
-        src: url('fonts/Alegreya-ExtraBoldItalic.woff2') format('woff2'),
-            url('fonts/Alegreya-ExtraBoldItalic.woff') format('woff');
-        font-weight: bold;
-        font-style: italic;
-        font-display: swap;
-    }
-
-    @font-face {
-        font-family: 'Alegreya';
-        src: url('fonts/Alegreya-Italic.woff2') format('woff2'),
-            url('fonts/Alegreya-Italic.woff') format('woff');
-        font-weight: normal;
-        font-style: italic;
-        font-display: swap;
-    }
-
-    @font-face {
-        font-family: 'Alegreya';
-        src: url('fonts/Alegreya-MediumItalic.woff2') format('woff2'),
-            url('fonts/Alegreya-MediumItalic.woff') format('woff');
-        font-weight: 500;
-        font-style: italic;
-        font-display: swap;
-    }
-
-    @font-face {
-        font-family: 'Alegreya';
-        src: url('fonts/Alegreya-Medium.woff2') format('woff2'),
-            url('fonts/Alegreya-Medium.woff') format('woff');
-        font-weight: 500;
-        font-style: normal;
-        font-display: swap;
-    }
-
-    @font-face {
-        font-family: 'Alegreya';
-        src: url('fonts/Alegreya-Regular.woff2') format('woff2'),
-            url('fonts/Alegreya-Regular.woff') format('woff');
+        font-family: 'libre_baskervillebold';
+        src: url('fonts/librebaskerville-bold-webfont.woff2') format('woff2'),
+             url('fonts/librebaskerville-bold-webfont.woff') format('woff');
         font-weight: normal;
         font-style: normal;
-        font-display: swap;
+
     }
 
-    @font-face {
-        font-family: 'Alegreya';
-        src: url('fonts/Alegreya-SemiBoldItalic.woff2') format('woff2'),
-            url('fonts/Alegreya-SemiBoldItalic.woff') format('woff');
-        font-weight: 600;
-        font-style: italic;
-        font-display: swap;
-    }
+
+
 
     @font-face {
-        font-family: 'Alegreya';
-        src: url('fonts/Alegreya-SemiBold.woff2') format('woff2'),
-            url('fonts/Alegreya-SemiBold.woff') format('woff');
-        font-weight: 600;
-        font-style: normal;
-        font-display: swap;
-    }
-
-    @font-face {
-        font-family: 'W95FA';
-        src: url('fonts/W95FARegular.woff2') format('woff2'),
-            url('fonts/W95FARegular.woff') format('woff');
+        font-family: 'libre_baskervillebolditalic';
+        src: url('fonts/librebaskerville-bolditalic-webfont.woff2') format('woff2'),
+             url('fonts/librebaskerville-bolditalic-webfont.woff') format('woff');
         font-weight: normal;
         font-style: normal;
-        font-display: swap;
+
+    }
+
+
+
+
+    @font-face {
+        font-family: 'libre_baskervilleitalic';
+        src: url('fonts/librebaskerville-italic-webfont.woff2') format('woff2'),
+             url('fonts/librebaskerville-italic-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+
+
+
+    @font-face {
+        font-family: 'libre_baskervilleregular';
+        src: url('librebaskerville-regular-webfont.woff2') format('woff2'),
+             url('fonts/librebaskerville-regular-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+
+
+
+    @font-face {
+        font-family: 'libre_baskervillebold';
+        src: url('fonts/librebaskerville-bold-webfont.woff2') format('woff2'),
+             url('fonts/librebaskerville-bold-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+
+
+
+    @font-face {
+        font-family: 'libre_baskervilleitalic';
+        src: url('fonts/librebaskerville-italic-webfont.woff2') format('woff2'),
+             url('fonts/librebaskerville-italic-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+
+
+
+    @font-face {
+        font-family: 'libre_baskervilleregular';
+        src: url('fonts/librebaskerville-regular-webfont.woff2') format('woff2'),
+             url('fonts/librebaskerville-regular-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
     }
 
     * {
@@ -347,7 +311,7 @@ a:hover {
   margin: 0 auto;
   width: 100%;
   font-size: 150%;
-  font-family: "Alegreya", "Baskerville", serif;
+  font-family: "Libre Baskerville", "Baskerville", serif;
   font-style: italic;
   font-weight: 500;
   text-align: center;
@@ -371,12 +335,13 @@ a:hover {
   justify-content: center;
   margin: 0 auto 5%;
   padding: 1%;
-  width: 50%;
-  font-size: 100%;
-  font-family: "Alegreya", "Baskerville", serif;
+  width: 75%;
+  font-size: 75%;
+  font-family: "Libre Baskerville", "Baskerville", serif;
   font-style: normal;
   font-weight: 100;
   text-align: justify;
+  line-height: 145%;
   hyphens: auto;
 }
 
