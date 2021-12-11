@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="lightboxscript.js"></script>
+</head>
+
+<body>
+
+  <div class="MenuContainer">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li style="font-weight:600;"><a href="portfolio.html">PORTFOLIO</a></li>
+      <li><a href="resume.html">RESUME</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+      <li><a href="page5.html">BIO</a></li>
+    </ul>
+  </div>
+
+  <div class="container">
+
+    <div class="SectionHeading">
+      <h2>Design Work</h2>
+    </div>
+
+<!--lightbox framework adapted from https://www.w3schools.com/howto/howto_js_lightbox.asp-->
+
+    <div class="row">
+      <img src="media/small/anarchy is order.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" alt="anarchy is order.jpg">
+
+      <img src="media/small/demand to live.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow" alt="demand to live.jpg">
+
+      <img src="media/small/no war with iran.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow" alt="no war with iran.jpg">
+
+      <img src="media/small/silverkeyflier 2.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow" alt="silverkeyflier 2.jpg">
+
+      <img src="media/small/theoretical metaphysics.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow" alt="theoretical metaphysics.jpg">
+
+      <img src="media/small/tryst flier b_w.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow" alt="tryst flier b_w.jpg">
+
+      <img src="media/small/tryststaff 2.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow" alt="tryststaff 2.jpg">
+
+      <img src="media/small/Nostalgia For Lost Futures@330x.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow" alt="nostalgia for lost futures@330x.jpg">
+
+      <img src="media/small/abolishmockup.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow" alt="abolishmockup.jpg">
+
+      <img src="media/small/Workers Rights 2.jpg" onclick="openModal();currentSlide(10)" class="hover-shadow" alt="workers rights 2.jpg">
+    </div>
+
+    <div class="SectionHeading">
+      <h2>Photography</h2>
+    </div>
+
+    <div class="row">
+      <img src="media/small/DSC_0117.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow" alt="DSC_0117.jpg">
+
+      <img src="media/small/DSC_0186.jpg" onclick="openModal();currentSlide(12)" class="hover-shadow" style="width:50%;" alt="DSC_0186.jpg">
+
+      <img src="media/small/DSC_0331.jpg" onclick="openModal();currentSlide(13)" class="hover-shadow" alt="DSC_0331.jpg">
+
+      <img src="media/small/Tom Friedl Deep DOF.jpg" onclick="openModal();currentSlide(14)" class="hover-shadow" style="width:50%;" alt="Tom Friedl Deep DOF.jpg">
+
+      <img src="media/small/Tom Friedl Low ASA.jpg" onclick="openModal();currentSlide(15)" class="hover-shadow" style="width:50%;" alt="Tom Friedl Low ASA.jpg">
+
+      <img src="media/small/photo6.jpg" onclick="openModal();currentSlide(16)" class="hover-shadow" alt="photo6.jpg">
+
+      <img src="media/small/photo7.jpg" onclick="openModal();currentSlide(17)" class="hover-shadow" style="width:50%;" alt="photo7.jpg">
+
+      <img src="media/small/photo8.jpg" onclick="openModal();currentSlide(18)" class="hover-shadow" alt="photo8.jpg">
+
+      <img src="media/small/photo9.jpg" onclick="openModal();currentSlide(19)" class="hover-shadow" style="width:50%;" alt="photo9.jpg">
+
+      <img src="media/small/photo10.jpg" onclick="openModal();currentSlide(20)" class="hover-shadow" alt="photo10.jpg">
+
+      <img src="media/small/photo11.jpg" onclick="openModal();currentSlide(21)" class="hover-shadow" style="width:50%;" alt="photo11.jpg">
+
+      <img src="media/small/photo12.jpg" onclick="openModal();currentSlide(22)" class="hover-shadow" alt="photo12.jpg">
+
+      <img src="media/small/photo13.jpg" onclick="openModal();currentSlide(23)" class="hover-shadow" alt="photo13.jpg">
+
+    </div>
+
+
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+
+        <div class="mySlides tall">
+          <img src="media/large/anarchy is order.jpg" style="width: 100%" alt="anarchy is order.jpg">
+        </div>
+
+        <div class="mySlides tall">
+          <img src="media/large/demand to live.jpg" style="width:100%" alt="demand to live.jpg">
+        </div>
+
+        <div class="mySlides tall">
+          <img src="media/large/no war with iran.jpg" style="width:100%" alt="no war with iran.jpg">
+        </div>
+
+        <div class="mySlides tall">
+          <img src="media/large/silverkeyflier 2.jpg" style="width:100%" alt="silverkeyflier 2.jpg">
+        </div>
+
+        <div class="mySlides tall">
+          <img src="media/large/theoretical metaphysics.jpg" style="width:100%" alt="theoretical metaphysics.jpg">
+        </div>
+
+        <div class="mySlides tall">
+          <img src="media/large/tryst flier b_w.jpg" style="width:100%" alt="tryst flier b_w.jpg">
+        </div>
+
+        <div class="mySlides tall">
+          <img src="media/large/tryststaff 2.jpg" style="width:100%" alt="tryststaff 2.jpg">
+        </div>
+
+        <div class="mySlides tall">
+          <img src="media/large/nostalgia for lost futures@330x.jpg" style="width:100%" alt="nostalgia for lost futures@330.jpg">
+        </div>
+
+        <div class="mySlides tall">
+          <img src="media/large/abolishmockup.jpg" style="width:100%" alt="abolishmockup.jpg">
+        </div>
+
+        <div class="mySlides tall">
+          <img src="media/large/workers rights 2.jpg" style="width:100%" alt="workers rights 2.jpg">
+        </div>
+
+        <div class="mySlides tall">
+          <img src="media/large/DSC_0117.jpg" style="width: 100%" alt="DSC_0117.jpg">
+        </div>
+
+        <div class="mySlides wide">
+          <img src="media/large/DSC_0186.jpg" style="width:100%" alt="DSC_0186.jpg">
+        </div>
+
+        <div class="mySlides tall">
+          <img src="media/large/DSC_0331.jpg" style="width:100%" alt="DSC_0331.jpg">
+        </div>
+
+        <div class="mySlides wide">
+          <img src="media/large/Tom Friedl Deep DOF.jpg" style="width:100%" alt="Tom Friedl Deep DOF.jpg">
+        </div>
+
+        <div class="mySlides wide">
+          <img src="media/large/Tom Friedl Low ASA.jpg" style="width:100%" alt="Tom Friedl Low ASA.jpg">
+        </div>
+
+        <div class="mySlides tall">
+          <img src="media/large/photo6.jpg" style="width:100%" alt="photo6.jpg">
+        </div>
+
+        <div class="mySlides wide">
+          <img src="media/large/photo7.jpg" style="width:100%" alt="photo7.jpg">
+        </div>
+
+        <div class="mySlides tall">
+          <img src="media/large/photo8.jpg" style="width:100%" alt="photo8.jpg">
+        </div>
+
+        <div class="mySlides wide">
+          <img src="media/large/photo9.jpg" style="width:100%" alt="photo9.jpg">
+        </div>
+
+        <div class="mySlides tall">
+          <img src="media/large/photo10.jpg" style="width:100%" alt="photo10.jpg">
+        </div>
+
+        <div class="mySlides wide">
+          <img src="media/large/photo11.jpg" style="width:100%" alt="photo11.jpg">
+        </div>
+
+        <div class="mySlides tall">
+          <img src="media/large/photo12.jpg" style="width:100%" alt="photo12.jpg">
+        </div>
+
+        <div class="mySlides tall">
+          <img src="media/large/photo13.jpg" style="width:100%" alt="photo13.jpg">
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
