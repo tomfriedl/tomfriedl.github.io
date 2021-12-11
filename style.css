@@ -489,6 +489,13 @@ a:hover {
           box-shadow: 4px 4px #BFE0D0;
         }
 
+        .row iframe {
+          align-self: center;
+          padding: 1%;
+          margin: 2%;
+          border: 0.25px solid black;
+        }
+
         /* The Modal (background) */
         .modal {
           display: none;
