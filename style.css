@@ -372,10 +372,9 @@ a:hover {
   margin: 0 auto 5%;
   padding: 1%;
   width: 50%;
-  font-size: 100%;
-  font-family: "Alegreya", "Baskerville", serif;
-  font-style: normal;
-  font-weight: 100;
+  font-size: 75%;
+  font-family: "raleway", "ITC Avant Garde Gothic Std", "Century Gothic", "Futura", "AppleGothic", sans-serif;
+  font-weight: 200;
   text-align: justify;
   hyphens: auto;
 }
